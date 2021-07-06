@@ -99,7 +99,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>mohan</name>
-	      <url>http://54.91.94.30:8089/mohansoft/repository/wallmart-snapshot/</url>
+	      <url>http://54.91.94.30:8089/mohansoft/repository/wallmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
