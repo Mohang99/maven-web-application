@@ -1,4 +1,3 @@
-/*
 node
 {
    def mavenhome = tool name: "maven"
@@ -36,4 +35,3 @@ node
     }
     
 }   
-  /*
