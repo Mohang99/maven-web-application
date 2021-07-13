@@ -15,12 +15,13 @@ node('nodejsinstance')
     {
         sh "${mavenhome}/bin/mvn sonar:sonar"
     }
+    /*
     stage ('upload artifact to nexus')
     {
         sh "${mavenhome}/bin/mvn deploy"
     }
 
-    /*
+    
     stage('deploy applicationinto Tomcat server')
     {
         sshagent(['fdd641b4-579a-4994-a673-d62952fce98d']) 
