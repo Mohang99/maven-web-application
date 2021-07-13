@@ -30,14 +30,14 @@ stages{
             sh "mvn sonar:sonar" 
         }
     }
-    stage('uploadartifacts into nexus')
+    stage('uploadartifactsintonexus')
 {
     steps{
         sh ("mvn deploy")
     }
 }
     
-    stage('deploy applicationintotomcatserver')
+    stage('deployapplicationintotomcatserver')
     {
         steps{
             sshagent(['fdd641b4-579a-4994-a673-d62952fce98d']) 
