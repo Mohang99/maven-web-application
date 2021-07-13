@@ -15,7 +15,7 @@ node('nodejsinstance')
     {
         sh "${mavenhome}/bin/mvn sonar:sonar"
     }
-    /*
+    
     stage ('upload artifact to nexus')
     {
         sh "${mavenhome}/bin/mvn deploy"
@@ -31,5 +31,5 @@ node('nodejsinstance')
 }
 
     }
-*/
+
 }
