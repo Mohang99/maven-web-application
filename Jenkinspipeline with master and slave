@@ -1,5 +1,5 @@
 
-node('nodes')
+node('nodejsinstance')
 {
         def mavenhome = tool name : "maven"
     stage('code checkout')
