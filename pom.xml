@@ -98,13 +98,15 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>mohan</name>
+	      <name>admin</name>
+		    <password>password</password>
 	      <url>http://34.229.150.207:8089/repository/wallmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>mohan</name>
+	      <name>admin</name>
+		    <password>password</password>
 	      <url>http://34.229.150.207:8089/repository/wallmart-snapshot//</url>
 	    </snapshotRepository>
 	    
